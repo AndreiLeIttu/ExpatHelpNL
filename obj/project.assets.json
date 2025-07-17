@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\projects\\ExpatHelpApp\\ExpatHelpApp\\ExpatHelpApp.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\projects\\ExpatHelpNL\\ExpatHelpApp.csproj",
       "projectName": "ExpatHelpApp",
-      "projectPath": "C:\\Users\\andre\\projects\\ExpatHelpApp\\ExpatHelpApp\\ExpatHelpApp.csproj",
+      "projectPath": "C:\\Users\\andre\\projects\\ExpatHelpNL\\ExpatHelpApp.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\projects\\ExpatHelpApp\\ExpatHelpApp\\obj\\",
+      "outputPath": "C:\\Users\\andre\\projects\\ExpatHelpNL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"

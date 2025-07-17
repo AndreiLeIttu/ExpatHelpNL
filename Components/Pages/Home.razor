@@ -1,9 +1,14 @@
-﻿@page "/"
+﻿@inject Services.PostService PostService
+@page "/"
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<div>@((MarkupString)(PostHtml ?? string.Empty))</div>
 
-Welcome to your new app.
+@code {
+    private string? PostHtml;
 
-<Counter />
+    protected override void OnParametersSet() {
+        PostHtml = PostService.GetPostHtml("home");
+    }
+}

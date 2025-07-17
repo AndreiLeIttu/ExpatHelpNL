@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExpatHelpApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2008334fb0f959076d09a003f030f139705f1a38")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExpatHelpApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExpatHelpApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

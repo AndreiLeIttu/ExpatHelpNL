@@ -1,0 +1,14 @@
+@inject Services.PostService PostService
+@page "/students"
+
+<div>@((MarkupString)(PostHtml ?? string.Empty))</div>
+
+@code {
+
+    private string? PostHtml;
+
+    protected override void OnParametersSet()
+    {
+        PostHtml = PostService.GetPostHtml("students");
+    }
+}
